@@ -3674,3 +3674,273 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-05-09 20:09:16,029 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-05-09 20:09:16,032 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-09 20:09:16,032 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 10:43:19,645 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-10 10:51:57,766 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.codifacil:config-service:2.2.5-SNAPSHOT @ D:\Spring\Microservicios LabAcademy\Workspace\config-service\pom.xml.
+2020-05-10 10:51:59,286 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.7.RELEASE/spring-boot-starter-security-2.2.7.RELEASE.pom
+2020-05-10 10:51:59,537 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.7.RELEASE/spring-boot-starter-security-2.2.7.RELEASE.pom
+2020-05-10 10:52:01,125 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-server/2.2.2.RELEASE/spring-cloud-config-server-2.2.2.RELEASE.pom
+2020-05-10 10:52:01,300 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-server/2.2.2.RELEASE/spring-cloud-config-server-2.2.2.RELEASE.pom
+2020-05-10 10:52:04,085 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.pom
+2020-05-10 10:52:04,279 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.pom
+2020-05-10 10:52:04,484 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/5.1.3.201810200350-r/org.eclipse.jgit-parent-5.1.3.201810200350-r.pom
+2020-05-10 10:52:04,808 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/5.1.3.201810200350-r/org.eclipse.jgit-parent-5.1.3.201810200350-r.pom
+2020-05-10 10:52:04,972 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom
+2020-05-10 10:52:05,176 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom
+2020-05-10 10:52:05,283 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom
+2020-05-10 10:52:05,481 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom
+2020-05-10 10:52:05,699 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.pom
+2020-05-10 10:52:05,875 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.pom
+2020-05-10 10:52:06,012 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.pom
+2020-05-10 10:52:06,171 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.pom
+2020-05-10 10:52:06,322 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+2020-05-10 10:52:06,506 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+2020-05-10 10:52:06,723 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit.http.apache/5.1.3.201810200350-r/org.eclipse.jgit.http.apache-5.1.3.201810200350-r.pom
+2020-05-10 10:52:06,902 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit.http.apache/5.1.3.201810200350-r/org.eclipse.jgit.http.apache-5.1.3.201810200350-r.pom
+2020-05-10 10:52:07,443 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.4/jackson-dataformat-yaml-2.10.4.pom
+2020-05-10 10:52:07,616 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.4/jackson-dataformat-yaml-2.10.4.pom
+2020-05-10 10:52:07,762 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.10.4/jackson-dataformats-text-2.10.4.pom
+2020-05-10 10:52:07,938 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.10.4/jackson-dataformats-text-2.10.4.pom
+2020-05-10 10:52:09,922 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.4.RELEASE/spring-security-test-5.2.4.RELEASE.pom
+2020-05-10 10:52:10,105 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.4.RELEASE/spring-security-test-5.2.4.RELEASE.pom
+2020-05-10 10:52:10,402 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.7.RELEASE/spring-boot-starter-security-2.2.7.RELEASE.jar
+2020-05-10 10:52:10,581 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.jar
+2020-05-10 10:52:10,762 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar
+2020-05-10 10:52:10,907 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-server/2.2.2.RELEASE/spring-cloud-config-server-2.2.2.RELEASE.jar
+2020-05-10 10:52:10,907 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar
+2020-05-10 10:52:11,338 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.7.RELEASE/spring-boot-starter-security-2.2.7.RELEASE.jar
+2020-05-10 10:52:11,562 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.jar
+2020-05-10 10:52:11,935 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.jar
+2020-05-10 10:52:12,256 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit.http.apache/5.1.3.201810200350-r/org.eclipse.jgit.http.apache-5.1.3.201810200350-r.jar
+2020-05-10 10:52:12,621 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-server/2.2.2.RELEASE/spring-cloud-config-server-2.2.2.RELEASE.jar
+2020-05-10 10:52:12,621 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar
+2020-05-10 10:52:13,086 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.4.RELEASE/spring-security-test-5.2.4.RELEASE.jar
+2020-05-10 10:52:13,086 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.4/jackson-dataformat-yaml-2.10.4.jar
+2020-05-10 10:52:13,100 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.jar
+2020-05-10 10:52:13,109 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit.http.apache/5.1.3.201810200350-r/org.eclipse.jgit.http.apache-5.1.3.201810200350-r.jar
+2020-05-10 10:52:13,762 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.4.RELEASE/spring-security-test-5.2.4.RELEASE.jar
+2020-05-10 10:52:13,931 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.4/jackson-dataformat-yaml-2.10.4.jar
+2020-05-10 10:52:14,510 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar
+2020-05-10 10:52:21,834 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/main/java
+2020-05-10 10:52:21,834 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2020-05-10 10:52:21,878 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2020-05-10 10:52:21,915 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/test/java
+2020-05-10 10:52:22,083 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.7.RELEASE/spring-boot-starter-security-2.2.7.RELEASE-sources.jar
+2020-05-10 10:52:22,413 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.7.RELEASE/spring-boot-starter-security-2.2.7.RELEASE-sources.jar
+2020-05-10 10:52:22,634 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:2.2.7.RELEASE
+2020-05-10 10:52:23,294 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-server/2.2.2.RELEASE/spring-cloud-config-server-2.2.2.RELEASE-sources.jar
+2020-05-10 10:52:23,950 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-server/2.2.2.RELEASE/spring-cloud-config-server-2.2.2.RELEASE-sources.jar
+2020-05-10 10:52:24,116 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-config-server:2.2.2.RELEASE
+2020-05-10 10:52:24,518 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 41 sec
+2020-05-10 10:52:24,523 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-10 10:52:24,755 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r-sources.jar
+2020-05-10 10:52:25,269 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.codifacil:config-service:2.2.5-SNAPSHOT @ D:\Spring\Microservicios LabAcademy\Workspace\config-service\pom.xml.
+2020-05-10 10:52:26,149 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/main/java
+2020-05-10 10:52:26,150 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2020-05-10 10:52:26,152 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2020-05-10 10:52:26,156 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/test/java
+2020-05-10 10:52:26,846 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-05-10 10:52:27,968 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r-sources.jar
+2020-05-10 10:52:28,476 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jgit:org.eclipse.jgit:5.1.3.201810200350-r
+2020-05-10 10:52:28,939 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 10:52:28,944 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 10:52:28,973 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 10:52:28,976 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 10:52:28,977 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 10:52:29,535 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54-sources.jar
+2020-05-10 10:52:30,439 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54-sources.jar
+2020-05-10 10:52:30,602 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jsch:0.1.54
+2020-05-10 10:52:31,219 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1-sources.jar
+2020-05-10 10:52:31,725 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1-sources.jar
+2020-05-10 10:52:31,917 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jzlib:1.1.1
+2020-05-10 10:52:32,571 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6-sources.jar
+2020-05-10 10:52:33,213 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6-sources.jar
+2020-05-10 10:52:33,334 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.googlecode.javaewah:JavaEWAH:1.1.6
+2020-05-10 10:52:33,937 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit.http.apache/5.1.3.201810200350-r/org.eclipse.jgit.http.apache-5.1.3.201810200350-r-sources.jar
+2020-05-10 10:52:34,583 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit.http.apache/5.1.3.201810200350-r/org.eclipse.jgit.http.apache-5.1.3.201810200350-r-sources.jar
+2020-05-10 10:52:34,709 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jgit:org.eclipse.jgit.http.apache:5.1.3.201810200350-r
+2020-05-10 10:52:35,453 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.4/jackson-dataformat-yaml-2.10.4-sources.jar
+2020-05-10 10:52:36,022 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.4/jackson-dataformat-yaml-2.10.4-sources.jar
+2020-05-10 10:52:36,145 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.4
+2020-05-10 10:52:36,820 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.4.RELEASE/spring-security-test-5.2.4.RELEASE-sources.jar
+2020-05-10 10:52:37,539 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/5.2.4.RELEASE/spring-security-test-5.2.4.RELEASE-sources.jar
+2020-05-10 10:52:37,681 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-test:5.2.4.RELEASE
+2020-05-10 10:52:37,686 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jgit:org.eclipse.jgit:5.1.3.201810200350-r
+2020-05-10 10:52:37,694 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jsch:0.1.54
+2020-05-10 10:52:37,703 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jzlib:1.1.1
+2020-05-10 10:52:37,713 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.googlecode.javaewah:JavaEWAH:1.1.6
+2020-05-10 10:52:37,722 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jgit:org.eclipse.jgit.http.apache:5.1.3.201810200350-r
+2020-05-10 10:52:37,732 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.4
+2020-05-10 10:52:37,740 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-test:5.2.4.RELEASE
+2020-05-10 10:52:37,748 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jgit:org.eclipse.jgit:5.1.3.201810200350-r
+2020-05-10 10:52:37,757 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jsch:0.1.54
+2020-05-10 10:52:37,766 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jzlib:1.1.1
+2020-05-10 10:52:37,773 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.googlecode.javaewah:JavaEWAH:1.1.6
+2020-05-10 10:52:37,779 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jgit:org.eclipse.jgit.http.apache:5.1.3.201810200350-r
+2020-05-10 10:52:37,787 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.4
+2020-05-10 10:52:37,794 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-test:5.2.4.RELEASE
+2020-05-10 10:52:37,801 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jgit:org.eclipse.jgit:5.1.3.201810200350-r
+2020-05-10 10:52:37,807 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jsch:0.1.54
+2020-05-10 10:52:37,814 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jcraft:jzlib:1.1.1
+2020-05-10 10:52:37,820 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.googlecode.javaewah:JavaEWAH:1.1.6
+2020-05-10 10:52:37,828 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jgit:org.eclipse.jgit.http.apache:5.1.3.201810200350-r
+2020-05-10 10:52:37,837 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.4
+2020-05-10 10:52:37,846 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-test:5.2.4.RELEASE
+2020-05-10 10:52:38,196 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 10:52:38,198 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 10:52:38,198 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 10:52:38,201 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 10:52:38,202 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 11:05:51,120 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:05:51,123 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 11:05:51,126 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 11:05:51,130 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:05:51,130 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 11:06:28,543 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:06:28,545 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 11:06:28,546 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 11:06:28,621 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:06:28,621 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 11:07:00,108 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:07:00,109 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 11:07:00,110 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 11:07:00,117 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:07:00,117 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 11:07:12,017 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:07:12,018 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 11:07:12,018 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 11:07:12,022 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:07:12,022 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 11:07:57,672 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:07:57,673 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 11:07:57,675 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 11:07:57,751 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:07:57,752 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 11:37:01,914 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:37:01,915 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 11:37:01,916 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 11:37:01,924 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:37:01,924 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 11:40:23,123 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:40:23,124 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 11:40:23,124 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 11:40:23,173 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:40:23,173 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 11:53:34,516 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:53:34,516 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 11:53:34,516 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 11:53:34,522 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 11:53:34,522 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 12:18:09,167 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:18:09,183 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:18:09,250 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:18:09,254 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:18:09,254 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 12:19:44,140 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:19:44,141 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:19:44,142 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:19:44,147 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:19:44,147 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 12:20:31,570 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:20:31,570 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:20:31,570 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:20:31,572 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:20:31,572 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 12:21:19,088 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:21:19,088 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:21:19,089 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:21:19,092 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:21:19,092 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 12:22:42,293 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:22:42,293 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:22:42,293 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:22:42,295 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:22:42,295 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 12:22:52,341 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:22:52,342 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:22:52,343 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:22:52,357 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:22:52,358 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 12:23:27,911 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:23:27,912 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:23:27,912 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:23:27,919 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:23:27,919 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\config-service\src\test\resources
+2020-05-10 12:45:13,178 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.codifacil:service-customer:2.2.5-SNAPSHOT @ D:\Spring\Microservicios LabAcademy\Workspace\service-customer\pom.xml.
+2020-05-10 12:45:19,948 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:45:19,948 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:45:20,000 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:45:20,008 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:45:20,008 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-customer\src\test\resources
+2020-05-10 12:45:26,686 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:45:26,687 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:45:26,690 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:45:26,699 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:45:26,700 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-customer\src\test\resources
+2020-05-10 12:49:53,410 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:49:53,410 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:49:53,411 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:49:53,414 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:49:53,415 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-customer\src\test\resources
+2020-05-10 12:52:49,246 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:52:49,247 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 12:52:49,247 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 12:52:49,251 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 12:52:49,251 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-customer\src\test\resources
+2020-05-10 13:14:26,040 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:14:26,631 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 13:14:26,632 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-10 13:14:26,660 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:14:26,660 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-customer\src\test\resources
+2020-05-10 17:37:11,591 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-10 17:43:50,147 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.codifacil:service-product:2.2.5-SNAPSHOT @ D:\Spring\Microservicios LabAcademy\Workspace\service-product\pom.xml.
+2020-05-10 17:43:54,129 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:43:54,135 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 17:43:54,171 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 17:43:54,174 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:43:54,175 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-product\src\test\resources
+2020-05-10 17:44:00,844 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:44:00,851 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 17:44:00,860 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 17:44:00,995 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:44:00,996 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-product\src\test\resources
+2020-05-10 17:45:14,394 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:45:14,396 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:45:14,398 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 17:45:14,407 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:45:14,407 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-product\src\test\resources
+2020-05-10 17:45:41,426 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:45:41,427 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:45:41,427 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 17:45:41,453 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:45:41,453 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-product\src\test\resources
+2020-05-10 17:46:20,547 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:46:20,547 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:46:20,547 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-10 17:46:20,570 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:46:20,577 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 17:46:39,461 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:46:39,461 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:46:39,461 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-10 17:46:39,465 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:46:39,465 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 17:47:04,253 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.codifacil:service-shopping:2.2.5-SNAPSHOT @ D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\pom.xml.
+2020-05-10 17:47:05,581 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:47:05,581 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:47:05,581 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:47:05,582 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:47:05,583 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 17:47:08,664 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:47:08,665 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:47:08,665 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-10 17:47:08,696 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:47:08,696 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 17:56:17,033 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:56:17,224 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:56:17,226 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-10 17:56:17,236 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:56:17,236 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-shopping\src\test\resources
+2020-05-10 17:57:08,151 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:57:08,151 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-10 17:57:08,152 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-10 17:57:08,164 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 17:57:08,164 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring\Microservicios LabAcademy\Workspace\service-product\src\test\resources
