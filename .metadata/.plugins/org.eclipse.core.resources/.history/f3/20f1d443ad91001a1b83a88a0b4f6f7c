@@ -1,0 +1,45 @@
+package com.codifacil.serviceproduct;
+
+import java.util.Date;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.codifacil.serviceproduct.entity.Category;
+import com.codifacil.serviceproduct.entity.Product;
+import com.codifacil.serviceproduct.repository.ProductRepository;
+import com.codifacil.serviceproduct.service.ProductService;
+import com.codifacil.serviceproduct.service.ProductServiceImpl;
+
+@SpringBootTest
+public class ProductServiceMockTest {
+	
+	@Mock
+	private ProductRepository productRepository;
+	
+	private ProductService productService;
+	
+	@BeforeEach
+	public void setup() {
+		MockitoAnnotations.initMocks(this);
+		productService = new ProductServiceImpl(productRepository);
+		
+		Product pro01 = Product.builder()
+				.id(1L)
+				.name("azucar")
+				.category(Category.builder().id(1L).build())
+				.description("")
+				.stock(Double.parseDouble("10"))
+				.price(Double.parseDouble("1000"))
+				.build();
+		
+		Mockito.when(productRepository.findById(1L))
+		.thenReturn(Optional.of(pro01));
+	}
+	
+
+}

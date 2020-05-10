@@ -1,0 +1,5 @@
+package com.codifacil.serviceproduct.service;
+
+public class ProductServiceImpl {
+
+}

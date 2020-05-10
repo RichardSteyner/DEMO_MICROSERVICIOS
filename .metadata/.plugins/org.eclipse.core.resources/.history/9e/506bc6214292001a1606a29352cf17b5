@@ -1,0 +1,5 @@
+package com.codifacil.servicecustomer.entity;
+
+public class Customer {
+
+}

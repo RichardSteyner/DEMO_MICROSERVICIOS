@@ -1,0 +1,5 @@
+package com.codifacil.serviceproduct;
+
+public class ProductRepositoryMockTest {
+
+}

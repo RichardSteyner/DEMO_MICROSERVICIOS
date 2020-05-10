@@ -1,0 +1,72 @@
+package com.codifacil.servicecustomer.controller;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.codifacil.servicecustomer.entity.Customer;
+import com.codifacil.servicecustomer.entity.Region;
+import com.codifacil.servicecustomer.service.CustomerService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@RestController
+@RequestMapping("/customers")
+public class CustomerController {
+	
+	@Autowired
+	CustomerService customerService;
+	
+	@GetMapping
+	public ResponseEntity<List<Customer>> listAllCustomers(@RequestParam(name = "regionId", required = false) Long regionId){
+		List<Customer> customers = new ArrayList<>();
+		if(regionId==null) {
+			customers = customerService.findCustomerAll();
+			if(customers.isEmpty())
+				return ResponseEntity.noContent().build();
+		}
+		else {
+			customers = customerService.findCustomersByRegion(Region.builder().
+					id(regionId).build());
+			/*if(products.isEmpty())
+				return ResponseEntity.notFound().build();*///preferible mostrar la lista vacía
+		}
+		
+		return ResponseEntity.ok(customers);
+	}
+	
+	private String formatMessage(BindingResult result) {
+		List<Map<String, String>> errores = result.getFieldErrors().stream()
+				.map(err -> {
+					Map<String, String> error =  new HashMap<>();
+					error.put(err.getField(), err.getDefaultMessage());
+					return error;
+				}).collect(Collectors.toList());
+		
+		ErrorMessage errorMessage = ErrorMessage.builder()
+				.code("01")
+				.messages(errores)
+				.build();
+		
+		ObjectMapper mapper = new ObjectMapper();
+		String json = "";
+		try {
+			json = mapper.writeValueAsString(errorMessage);
+		}catch(JsonProcessingException e) {
+			e.printStackTrace();
+		}
+		
+		return json;
+	}
+
+}

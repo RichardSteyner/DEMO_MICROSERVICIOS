@@ -1,0 +1,70 @@
+package com.codifacil.serviceproduct.service;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.codifacil.serviceproduct.entity.Product;
+import com.codifacil.serviceproduct.repository.ProductRepository;
+
+public class ProductServiceImpl implements ProductService {
+	
+	@Autowired
+	private ProductRepository productRepository;
+
+	@Override
+	public List<Product> listAllProducts() {
+		// TODO Auto-generated method stub
+		return productRepository.findAll();
+	}
+
+	@Override
+	public Product getProduct(Long id) {
+		// TODO Auto-generated method stub
+		return productRepository.findById(id).orElse(null);
+	}
+
+	@Override
+	public Product createProduct(Product product) {
+		// TODO Auto-generated method stub
+		product.setStatus("CREATED");
+		product.setCreateAt(new Date());
+		
+		return productRepository.save(product);
+	}
+
+	@Override
+	public Product updateProduct(Product product) {
+		// TODO Auto-generated method stub
+		Product productDB = getProduct(product.getId());
+		
+		if(productDB == null) return null;
+		
+		productDB.setName(product.getName());
+		productDB.setDescription(product.getDescription());
+		productDB.setCategory(product.getCategory());
+		//productDB.setStatus(product.getStatus());
+		productDB.setPrice(product.getPrice());
+		return productRepository.save(productDB);
+	}
+
+	@Override
+	public Product deleteProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> findByCategory() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product updateStock(Long id, Double quantity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

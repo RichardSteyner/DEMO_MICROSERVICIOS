@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;config-service/src/main/resources/application.properties&apos; to &apos;bootstrap.yml&apos;" description="Rename resource &apos;application.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/application.properties" name="bootstrap.yml" stamp="1589126788081" updateReferences="true"/>
+</session>
