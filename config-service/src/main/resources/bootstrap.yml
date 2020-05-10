@@ -8,8 +8,8 @@ spring:
         git:
           uri: https://github.com/RichardSteyner/DEMO_MICROSERVICIOS.git
           searchPaths: config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          username: steyner.urupeque.s@gmail.com
+          password: Abcdef_10
   security:
     user:
       name: root
