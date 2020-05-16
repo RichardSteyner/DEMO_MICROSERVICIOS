@@ -9,6 +9,8 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.constraints.Positive;
 
+import com.codifacil.serviceshopping.modelo.Product;
+
 import lombok.Data;
 
 @Entity
@@ -27,12 +29,11 @@ public class InvoiceItem {
     @Column(name = "product_id")
     private Long productId;
 
-
     @Transient
-    private Double subTotal;
+    private Product product;
 
-    /*@Transient
-    private Long productId;*/
+    @Transient //para que no se guarde en la BD
+    private Double subTotal;
 
     public Double getSubTotal(){
         if (this.price >0  && this.quantity >0 ){

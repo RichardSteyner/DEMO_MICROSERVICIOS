@@ -17,8 +17,10 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 import javax.validation.Valid;
 
+import com.codifacil.serviceshopping.modelo.Customer;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.Data;
@@ -40,6 +42,9 @@ public class Invoice {
     @Column(name = "customer_id")
     private Long customerId;
 
+    @Transient
+    private Customer customer;
+
     @Column(name = "create_at")
     @Temporal(TemporalType.DATE)
     private Date createAt;
@@ -53,9 +58,6 @@ public class Invoice {
     private List<InvoiceItem> items;
 
     private String state;
-
-    /*@Transient
-    private Customer customer;*/
 
     public Invoice(){
         items = new ArrayList<>();
