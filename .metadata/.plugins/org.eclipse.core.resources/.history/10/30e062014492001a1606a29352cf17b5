@@ -1,5 +1,0 @@
-package com.codifacil.servicecustomer.repository;
-
-public interface CustomerRepository {
-
-}

@@ -38,7 +38,6 @@ public class InvoiceController {
     InvoiceService invoiceService;
 
     // -------------------Retrieve All Invoices--------------------------------------------
-	@HystrixCommand
     @GetMapping
     public ResponseEntity<List<Invoice>> listAllInvoices() {
         List<Invoice> invoices = invoiceService.findInvoiceAll();
@@ -49,6 +48,8 @@ public class InvoiceController {
     }
 
     // -------------------Retrieve Single Invoice------------------------------------------
+
+	//@HystrixCommand
     @GetMapping(value = "/{id}")
     public ResponseEntity<Invoice> getInvoice(@PathVariable("id") long id) {
         log.info("Fetching Invoice with id {}", id);

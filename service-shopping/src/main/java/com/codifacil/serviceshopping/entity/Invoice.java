@@ -21,6 +21,7 @@ import javax.persistence.Transient;
 import javax.validation.Valid;
 
 import com.codifacil.serviceshopping.modelo.Customer;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.Data;

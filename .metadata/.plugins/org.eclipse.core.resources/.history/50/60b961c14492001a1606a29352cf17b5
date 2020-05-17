@@ -1,5 +1,0 @@
-package com.codifacil.servicecustomer.service;
-
-public interface CustomerService {
-
-}

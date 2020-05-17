@@ -1,5 +1,0 @@
-package com.codifacil.serviceshopping.repository;
-
-public interface InvoiceItemRepository {
-
-}

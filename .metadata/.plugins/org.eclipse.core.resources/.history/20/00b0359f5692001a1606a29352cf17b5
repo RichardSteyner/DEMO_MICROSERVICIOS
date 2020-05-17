@@ -1,5 +1,0 @@
-package com.codifacil.serviceshopping.service;
-
-public interface InvoiceService {
-
-}
