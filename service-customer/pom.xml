@@ -18,6 +18,7 @@
 		<java.version>1.8</java.version>
 		<spring-cloud-services.version>2.2.3.RELEASE</spring-cloud-services.version>
 		<spring-cloud.version>Hoxton.SR4</spring-cloud.version>
+		<spring-boot-admin.version>2.2.3</spring-boot-admin.version>
 	</properties>
 
 	<dependencies>
@@ -41,6 +42,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.codecentric</groupId>
+			<artifactId>spring-boot-admin-starter-client</artifactId>
 		</dependency>
 		
 		<!--<dependency>
@@ -84,6 +89,13 @@
 				<groupId>io.pivotal.spring.cloud</groupId>
 				<artifactId>spring-cloud-services-dependencies</artifactId>
 				<version>${spring-cloud-services.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>de.codecentric</groupId>
+				<artifactId>spring-boot-admin-dependencies</artifactId>
+				<version>${spring-boot-admin.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
