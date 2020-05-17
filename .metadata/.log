@@ -3826,3 +3826,18 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:108)
 	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.dadacoalition.yedit 4 0 2020-05-17 15:10:51.580
+!MESSAGE Marking errors not supported for files outside of a project.
+
+!ENTRY org.dadacoalition.yedit 4 0 2020-05-17 15:11:21.697
+!MESSAGE Marking errors not supported for files outside of a project.
+
+!ENTRY org.dadacoalition.yedit 4 0 2020-05-17 15:12:41.811
+!MESSAGE Marking errors not supported for files outside of a project.
+
+!ENTRY org.dadacoalition.yedit 4 0 2020-05-17 15:13:38.493
+!MESSAGE Marking errors not supported for files outside of a project.
+
+!ENTRY org.dadacoalition.yedit 4 0 2020-05-17 15:23:13.906
+!MESSAGE Marking errors not supported for files outside of a project.
