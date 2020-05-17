@@ -1,9 +1,11 @@
 package com.codifacil.serviceshopping.client;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 
 import com.codifacil.serviceshopping.modelo.Customer;
 
+@Component //para hacer otro tipo de inyección de dependencia
 public class CustomerHystrixFallbackFactory implements CustomerClient {
 
 	@Override
