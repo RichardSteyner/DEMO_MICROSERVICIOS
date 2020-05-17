@@ -25,6 +25,7 @@ import com.codifacil.serviceshopping.entity.Invoice;
 import com.codifacil.serviceshopping.service.InvoiceService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -37,6 +38,7 @@ public class InvoiceController {
     InvoiceService invoiceService;
 
     // -------------------Retrieve All Invoices--------------------------------------------
+	@HystrixCommand
     @GetMapping
     public ResponseEntity<List<Invoice>> listAllInvoices() {
         List<Invoice> invoices = invoiceService.findInvoiceAll();
