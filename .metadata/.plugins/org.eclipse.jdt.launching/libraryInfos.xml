@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<libraryInfo home="D:\Spring\jdk-11.0.2" version="11.0.2"/>
+<libraryInfo home="D:\Spring\jdk-11.0.2\bin" version="11.0.2"/>
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_251" version="1.8.0_251">
 <bootpath>
 <entry path="C:\Program Files\Java\jre1.8.0_251\lib\resources.jar"/>
